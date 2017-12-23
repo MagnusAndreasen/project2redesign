@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #223951;
+	margin: 20px;
+}
+
+#description {
+	color: #00F398;
+	text-align: left;
+	letter-spacing: 2px;
+	font-family: "Century Gothic", Verdana, Arial;
+	font-size: 20px;
+	padding-left: 345px;
+	width: 400px;
+}
+
+h1 {
+	color: #FFFFFF;
+	text-align: left;
+	letter-spacing: 2px;
+	font-family: "Century Gothic", Verdana, Arial;
+	font-size: 20px;
+	padding-left: 60px;
+	font-weight: normal;
+	position: relative;
+}
+
+#navigation {
+	font-style: normal;
+	color: #FFFFFF;
+	text-align: right;
+	letter-spacing: 4px;
+	font-family: "Source Code Pro", "Lucida Console", "Courier New";
+	font-size: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-bottom: #FFFFFF;
+	border-bottom-style: outset;
+	list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+	
+}
+
+.text {
+	color: #FFFFFF;
+	text-align: left;
+	letter-spacing: 2px;
+	font-family: "Century Gothic", Verdana, Arial;
+	font-size: 20px;
+	padding-left: 60px;
+	position: relative;
+	font-weight: normal; 
+}
+
+.introphoto {
+	padding-right: 60px;
+	text-align: right;
+}
+
+p {
+	padding-top: 60px;
+	width: 600px;
+}
+
+#footer {
+	font-style: normal;
+	color: #FFFFFF;
+	text-align: left;
+	letter-spacing: 4px;
+	font-family: "Source Code Pro", "Lucida Console", "Courier New";
+	font-size: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-top: #FFFFFF;
+	border-top-style: outset; 
+}
+
+a {
+	color: #00F398;
+}
+
+li {
+	float: left;
+}
