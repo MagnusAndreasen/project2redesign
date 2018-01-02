@@ -4,16 +4,41 @@ body {
 	background-color: #223951;
 	margin: 20px;
 	width: 90%;
+	font-family: "Century Gothic", "Verdana", "Arial";
+	color: white;
 }
 
-#description {
-	color: #00F398;
-	text-align: left;
-	letter-spacing: 2px;
-	font-family: "Century Gothic", Verdana, Arial;
-	font-size: 20px;
-	padding-left: 345px;
-	width: 400px;
+header {
+	background: #223951;
+	width: 100%;
+	height: 70px;
+	position: static;
+	top: 0;
+	z-index: 100;
+	border-bottom: solid;
+}
+
+h1 {
+	float: left;
+}
+
+
+nav {
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+	padding-top: 20px;
+	padding-left: 30px;
+}
+
+nav ul li a {
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: white;
 }
 
 h1 {
@@ -23,47 +48,52 @@ h1 {
 	font-family: "Century Gothic", "Verdana", "Arial";
 	font-size: 20px;
 	padding-left: 60px;
+	padding-top: 0;
 	font-weight: normal;
 	position: relative;
 }
 section {
 	float: left;
-	align-content: center;
+	align-content: left;
 	text-align: left;
-	width: 40%;
 	margin: 2% 2%;
-}
-#navigation {
-	font-style: normal;
-	color: #FFFFFF;
-	text-align: right;
-	letter-spacing: 4px;
-	font-family: "Source Code Pro", "Lucida Console", "Courier New";
-	font-size: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
-	border-bottom: #FFFFFF;
-	border-bottom-style: outset;
-	list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-	
+	margin-top: 75px;
+	margin-bottom: 75px;
 }
 
+#description {
+	color: white;
+	text-align: left;
+	letter-spacing: 2px;
+	font-family: "Century Gothic", "Verdana", "Arial";
+	font-size: 20px;
+	padding-left: 0;
+	padding-top: 11px;
+}
+
+h1 a{
+	font-size: 30px;
+}
 .text {
+	
 	color: #FFFFFF;
 	text-align: left;
 	letter-spacing: 2px;
-	font-family: "Century Gothic", Verdana, Arial;
+	font-family: "Century Gothic", "Verdana", "Arial";
 	font-size: 20px;
 	padding-left: 60px;
 	position: relative;
-	font-weight: normal; 
+	font-weight: normal;
 }
 
 .introphoto {
 	padding-right: 60px;
-	text-align: right;
+	text-align: center;
+	float: right;
+}
+
+#content {
+	padding: 15px;
 }
 
 p {
@@ -71,23 +101,34 @@ p {
 	width: 600px;
 }
 
-#footer {
+footer {
 	font-style: normal;
 	color: #FFFFFF;
 	text-align: left;
-	letter-spacing: 4px;
-	font-family: "Source Code Pro", "Lucida Console", "Courier New";
+	letter-spacing: 1px;
+	font-family: "Century Gothic", "Verdana", "Arial";
 	font-size: 15px;
-	padding-left: 20px;
-	padding-right: 20px;
-	border-top: #FFFFFF;
-	border-top-style: outset;
 	float: left;
-	width: 90%;
+	width: 100%;
+	border-top: solid;
+	padding-top: 10px;
+}
+
+footer a {
+	text-decoration: none;
+	padding-right: 30px;
+}
+
+footer a:hover {
+	color: white;
 }
 
 a {
 	color: #00F398;
+}
+
+.copyright {
+	float: right;
 }
 
 li {
