@@ -7,30 +7,39 @@
 </head>
 
 <body>
-	<header>
-		<figure id="logo"> <img src="images/signature.white.png" width="624" height="103" alt="Magnus Andreasen Multimediadesign"/></figure>
-		<h1 id="description">Multimediadesigner</h1>
-	</header>
-	<nav id="navigation"> 
-  		<!-- main navigation --> 
-  		<ul>
-  			<li><a href="index.html">About</a></li>
-  			<li><a href="skills.html">Skills</a></li> 
-  			<li><a href="portfolio.html">Portfolio</a></li> 
-  			<li><a href="#">Get In Touch</a></li> 
-		</ul>
-	</nav>
-	<div id="content">
+	<header><a id="caption">Magnus Andreasen Multimedia</a>
+  <nav>
+    <ul>
+      <li><a href="index.html" class="hjem">About</a></li>
+      <li><a href="portfolio.html" class="produkt">Portfolio</a></li>
+      <li><a href="getintouch.html" class="om">Get In Touch</a></li>
+    </ul>
+  </nav>
+</header>
+	<div id="contact">
+		<br><br><h2>Get In Touch</h2>
 		<div class="text">
-			<p>Here is my <a>contact info</a>, if you need to get in touch with me.<br /><br />Email:<a href="mailto:magnus88@outlook.dk">magnus88@outlook.dk</a><br /><br />Phone:<a>+45 23675598</a><br /><br />Social Medias:<a href="#">LinkedIn</a> <a href="#">Instagram</a></p>
+			<br><br><p>Here is my <a class="fontcolour">contact info</a>, if you need to get in touch with me.<br><br>Email: <a href="mailto:magnus88@outlook.dk">cph-ma334@cphbusiness.dk</a><br><br>Phone: <a>+45 23675598</a><br><br>Social Medias:<a href="https://www.linkedin.com/in/magnus-andreasen-95b25aa7/"> LinkedIn</a> <a href="https://www.instagram.com/andreasen_magnus/"> Instagram</a></p>
     	</div>
-    	<div class="introphoto">
-    		<figure> <img src="images/contact@0,5x.jpg" width="225" height="300" alt="Photo of Magnus Andreasen"/><figcaption>"I love to work with <a>creative</a> and <a>inspiring</a> people!"</figcaption></figure>
-    	</div>
+    	<section><h2>Send an email</h2>
+<form action="mailto:cph-ma334@cphbusiness.dk?subject=SendingMyForm!" method="post" enctype="text/plain">
+  <!-- Constraint validation af et web form med attributerne "required" og type -->
+  <p>
+    <input name="name" type="text" placeholder="Your name..." required>
+  </p>
+  <p>
+    <input name="mail" type="email" placeholder="Your mail address..." required>
+  </p>
+  <p>
+    <textarea name="massage" placeholder="Your message..." required></textarea>
+  </p>
+  <p>
+    <input name="submit" type="submit" value="Submit!">
+  </p>
+</form>
+			</section>
     </div>
-    
-	<footer id="footer"> 
-  		<a href="#">LinkedIn</a> <a href="#">Instagram</a> <a href="mailto:magnus88@outlook.dk">Email Me</a> <a>Copyright &copy;2017</a>
-	</footer>
+	<footer class="second"><p><a class="links" href="https://www.linkedin.com/in/magnus-andreasen-95b25aa7/">LinkedIn</a> <a class="links" href="https://www.instagram.com/andreasen_magnus/">Instagram</a> <a class="links" href="mailto:cph-ma334@cphbusiness.dk.dk">Email Me</a> <a>Copyright &copy; - MagnusMultimedia.dk 2017</a></p>
+</footer>
 </body>
 </html>
