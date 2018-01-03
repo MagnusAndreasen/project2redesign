@@ -43,6 +43,7 @@ header {
     background-color: #223951;
     width: 100%;
     position: absolute;
+	opacity: 0.95;
 }
 #caption {
     padding-left: 20px;
@@ -93,12 +94,16 @@ section {
     padding-left: 20px;
     padding-bottom: 20px;
 }
+
+content {
+	width: 100%;
+	padding: 20px;
+}
 footer {
     background: #223951;
     width: 100%;
     overflow: hidden;
     postion: absolute;
-    opacity: 1;
 }
 footer p {
     text-align: right;
